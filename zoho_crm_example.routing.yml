@@ -1,0 +1,7 @@
+zoho_crm_example.leads:
+  path: '/zoho-leads'
+  defaults:
+    _controller: '\Drupal\my_zoho_form\Controller\ZohoCrmExampleController::leads'
+    _title: 'Zoho CRM Leads'
+  requirements:
+    _permission: 'access content'
